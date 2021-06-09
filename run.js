@@ -371,7 +371,7 @@ const noTDown = () => {
     center.style.display = 'none';
 }
 
-function toggle_down() {
+function toggle_down(){
     if (goDown) {
         noTDown();
     } else {
