@@ -357,7 +357,7 @@ let goDown = false;
 const tDown = () => {
     goDown = true;
     down.classList.replace("fa-angle-up", "fa-angle-down");
-    playNav.style.top = '0';
+    playNav.style.top = '80px';
     playNav.style.borderBottomLeftRadius = '0';
     playNav.style.borderBottomRightRadius = '0';
     center.style.display = 'block';
@@ -365,7 +365,7 @@ const tDown = () => {
 const noTDown = () => {
     goDown = false;
     down.classList.replace("fa-angle-down", "fa-angle-up");
-    playNav.style.top = '348px';
+    playNav.style.top = '430px';
     playNav.style.borderBottomLeftRadius = '40px';
     playNav.style.borderBottomRightRadius = '40px';
     center.style.display = 'none';
