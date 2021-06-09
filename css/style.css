@@ -349,7 +349,7 @@ button {
 }
 .bot-r{
   position: relative;
-  top: 348px;
+  top: 430px;
   border-radius: 36px;
 }
 .right{
@@ -370,6 +370,8 @@ button {
     border-bottom-right-radius: 22px;
     backdrop-filter: blur(4px);
     background: rgb(255 255 255 / 40%);
+    position: relative;
+    top: 80px;
 }
 .songbox{
   border-bottom: 1px solid black;
