@@ -340,9 +340,6 @@ function progress_grace() {
         position = music.currentTime * (100 / music.duration);
         progress.value = position;
     }
-    if (isPlaying == false) {
-        progress.value = '0';
-    }
 }
 
 
